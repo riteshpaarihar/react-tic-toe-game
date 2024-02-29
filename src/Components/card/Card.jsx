@@ -11,7 +11,7 @@ if(player==="X"){
 }
 
     return(
-        <div className="card" onClick={()=>!gameEnd && player =="" && onPlay(index)} >
+        <div className="card" onClick={()=>!gameEnd && player ==="" && onPlay(index)} >
               {icon}
         </div>
     )
